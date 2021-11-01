@@ -21,10 +21,12 @@ h2 {
     letter-spacing: 4px;
     color: #252525;
 }
+
 #logo {
     float: left;
     font-size: 200%;
 }
+
 /* navigation links */
 
 #menu {
@@ -32,7 +34,9 @@ h2 {
     letter-spacing: 4px;
 
 }
-#menu, #logo {
+
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -42,13 +46,24 @@ h2 {
     margin-right: 30px;
 
 }
+
 #menu a {
     text-decoration: none;
     color: inherit;
 }
+
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
+
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../image/hero-image.webp') no-repeat center center;
 }
